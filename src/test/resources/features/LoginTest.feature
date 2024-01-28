@@ -2,6 +2,7 @@ Feature: Login Functionality
 
   Background: User is on the HomePage
 
+    @Positive
   Scenario: User should be able to login with valid Credentials
     When  User clicks on Login Link
     And   User enters valid Username "avinashp22@gmail.com"
@@ -12,6 +13,7 @@ Feature: Login Functionality
     Then  User should see the Logout Button
     Then  User clicks the Logout Button
 
+    @Negative
   Scenario: User should not be able to login with invalid Credentials
     When  User clicks on Login Link
     And   User enters Invalid Username "avinashp33@gmail.com"

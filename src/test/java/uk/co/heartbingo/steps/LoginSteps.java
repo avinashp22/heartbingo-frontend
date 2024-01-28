@@ -29,7 +29,7 @@ public class LoginSteps {
 
     @Then("User should see Deposit link at the top")
     public void userShouldSeeDepositLinkAtTheTop() {
-        Assert.assertEquals(new LoginPage().getDepositText(),"Deposit");
+        Assert.assertEquals(new LoginPage().getDepositText(), "Deposit");
     }
 
     @And("User clicks on My Account Button")
@@ -39,7 +39,7 @@ public class LoginSteps {
 
     @Then("User should see the Logout Button")
     public void userShouldSeeTheLogoutButton() {
-        Assert.assertEquals(new LoginPage().getLogoutText(),"Log Out");
+        Assert.assertEquals(new LoginPage().getLogoutText(), "Log Out");
     }
 
     @Then("User clicks the Logout Button")
@@ -59,6 +59,6 @@ public class LoginSteps {
 
     @Then("User should see error message for invalid Username and Password")
     public void userShouldSeeErrorMessageForInvalidUsernameAndPassword() {
-        Assert.assertEquals(new LoginPage().getErrorMessageText(),"The username or password you entered is incorrect. Please try again.");
+        Assert.assertEquals(new LoginPage().getErrorMessageText(), "The username or password you entered is incorrect. Please try again.");
     }
 }

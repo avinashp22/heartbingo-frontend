@@ -20,87 +20,82 @@ public class LoginPage extends Utility {
     WebElement loginButton;
 
     @CacheLookup
-    @FindBy (xpath = "//iframe[@class='oneauth-iframe']")
+    @FindBy(xpath = "//iframe[@class='oneauth-iframe']")
     WebElement iFrame;
 
     @CacheLookup
-    @FindBy (id = "username")
+    @FindBy(id = "username")
     WebElement usernameField;
 
     @CacheLookup
-    @FindBy (id = "password")
+    @FindBy(id = "password")
     WebElement passwordField;
 
     @CacheLookup
-    @FindBy (className = "login_errorMessageWrapper__2ZcGx")
+    @FindBy(className = "login_errorMessageWrapper__2ZcGx")
     WebElement errorText;
 
     @CacheLookup
-    @FindBy (linkText = "Deposit")
+    @FindBy(linkText = "Deposit")
     WebElement depositText;
 
     @CacheLookup
-    @FindBy (className = "site-header__my-account")
+    @FindBy(className = "site-header__my-account")
     WebElement myAccountButton;
 
     @CacheLookup
-    @FindBy (tagName = "button")
+    @FindBy(tagName = "button")
     WebElement logoutButton;
 
-    public void clickOnLoginLink(){
+    public void clickOnLoginLink() {
         clickOnElement(loginLink);
         log.info("Clicking on Login Button at top of Page " + loginLink.toString());
     }
 
-    public void swithToFrame(){
+    public void switchToFrame() {
         driver.switchTo().frame(iFrame);
         log.info("Switching into iFrame " + iFrame.toString());
     }
 
-    public void enterUsername(String username){
-        swithToFrame();
+    public void enterUsername(String username) {
+        switchToFrame();
         sendTextToElement(usernameField, username);
         log.info("Entering Username into username field " + username.toString());
     }
 
-    public void enterPassword(String password){
+    public void enterPassword(String password) {
         sendTextToElement(passwordField, password);
         log.info("Entering Password into password field " + password.toString());
     }
 
-    public void clickOnLoginButton(){
+    public void clickOnLoginButton() {
         clickOnElement(loginButton);
         log.info("Clicking on Login Button on Login Page " + loginButton.toString());
     }
 
-    public String getErrorMessageText(){
+    public String getErrorMessageText() {
         log.info("Getting Error message text " + errorText.toString());
         return getTextFromElement(errorText);
     }
 
-    public String getDepositText(){
+    public String getDepositText() {
         log.info("Getting Deposit text " + depositText.toString());
         return getTextFromElement(depositText);
     }
 
-    public void clickOnMyAccountButton(){
+    public void clickOnMyAccountButton() {
         clickOnElement(myAccountButton);
         log.info("Click on MyAccount Button " + myAccountButton.toString());
     }
 
-    public String getLogoutText(){
+    public String getLogoutText() {
         log.info("Getting Logout text " + logoutButton.toString());
         return getTextFromElement(logoutButton);
     }
 
-    public void clickOnLogoutButton(){
+    public void clickOnLogoutButton() {
         clickOnElement(logoutButton);
         log.info("Click on logout Button Button " + logoutButton.toString());
-    }
-
-    public void clickOnLoginbutton(){
-        clickOnElement(loginButton);
-        log.info("Clicking on Login Button " + loginButton.toString());
     }
 
 }

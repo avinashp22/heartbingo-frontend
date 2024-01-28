@@ -665,7 +665,7 @@ public class Utility extends ManageBrowser {
     //********************************************** upload files ******************************************************
 
     /**
-     * This method will upload the file when input is a tag and file name is upload file so we
+     * This method will upload the file when input is a tag and file name is upload file, so we
      * can use send keys method
      */
     public void uploadFiles(String path, By by) {
