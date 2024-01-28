@@ -1,0 +1,15 @@
+2024-01-28 20:01:639 INFO  LoginPage :52 - Clicking on Login Button at top of Page [[ChromeDriver: chrome on windows (0d6e7f1d7a9562e9b8bfcd3e11018ead)] -> link text: Log In]
+2024-01-28 20:01:595 INFO  LoginPage :57 - Switching into iFrame [[ChromeDriver: chrome on windows (0d6e7f1d7a9562e9b8bfcd3e11018ead)] -> xpath: //iframe[@class='oneauth-iframe']]
+2024-01-28 20:01:854 INFO  LoginPage :63 - Entering Username into username field avinashp22@gmail.com
+2024-01-28 20:01:24 INFO  LoginPage :68 - Entering Password into password field Prime123!
+2024-01-28 20:01:272 INFO  LoginPage :73 - Clicking on Login Button on Login Page [[ChromeDriver: chrome on windows (0d6e7f1d7a9562e9b8bfcd3e11018ead)] -> xpath: //button[contains(text(),'Log In')]]
+2024-01-28 20:01:363 INFO  LoginPage :82 - Getting Deposit text [[ChromeDriver: chrome on windows (0d6e7f1d7a9562e9b8bfcd3e11018ead)] -> link text: Deposit]
+2024-01-28 20:01:599 INFO  LoginPage :88 - Click on MyAccount Button [[ChromeDriver: chrome on windows (0d6e7f1d7a9562e9b8bfcd3e11018ead)] -> class name: site-header__my-account]
+2024-01-28 20:01:895 INFO  LoginPage :92 - Getting Logout text [[ChromeDriver: chrome on windows (0d6e7f1d7a9562e9b8bfcd3e11018ead)] -> tag name: button]
+2024-01-28 20:01:490 INFO  LoginPage :98 - Click on logout Button Button [[ChromeDriver: chrome on windows (0d6e7f1d7a9562e9b8bfcd3e11018ead)] -> tag name: button]
+2024-01-28 20:01:540 INFO  LoginPage :52 - Clicking on Login Button at top of Page [[ChromeDriver: chrome on windows (f6f76baeb1a46af3fe589e11d3cc1ce6)] -> link text: Log In]
+2024-01-28 20:01:03 INFO  LoginPage :57 - Switching into iFrame [[ChromeDriver: chrome on windows (f6f76baeb1a46af3fe589e11d3cc1ce6)] -> xpath: //iframe[@class='oneauth-iframe']]
+2024-01-28 20:01:368 INFO  LoginPage :63 - Entering Username into username field avinashp33@gmail.com
+2024-01-28 20:01:550 INFO  LoginPage :68 - Entering Password into password field Prime12345!
+2024-01-28 20:01:787 INFO  LoginPage :73 - Clicking on Login Button on Login Page [[ChromeDriver: chrome on windows (f6f76baeb1a46af3fe589e11d3cc1ce6)] -> xpath: //button[contains(text(),'Log In')]]
+2024-01-28 20:01:79 INFO  LoginPage :77 - Getting Error message text [[ChromeDriver: chrome on windows (f6f76baeb1a46af3fe589e11d3cc1ce6)] -> class name: login_errorMessageWrapper__2ZcGx]
