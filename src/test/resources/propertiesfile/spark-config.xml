@@ -14,7 +14,7 @@
         <protocol>https</protocol>
 
         <!-- title of the document -->
-        <documentTitle>Extent Report</documentTitle>
+        <documentTitle>Heart Bingo Frontend Report</documentTitle>
 
         <!-- report name - displayed at top-nav -->
         <reportName>Heart Bingo Frontend Test</reportName>

@@ -435,7 +435,7 @@ public class Utility extends ManageBrowser {
      * This method will take screenshot
      */
     public static void takeScreenShot() {
-        String filePath = System.getProperty("user.dir") + "/src/main/java/com/nopcommerce/demo/screenshots/";
+        String filePath = System.getProperty("user.dir") + "/testoutput/reports/screenshots/";
         TakesScreenshot screenshot = (TakesScreenshot) driver;
         File scr1 = screenshot.getScreenshotAs(OutputType.FILE);
         try {
@@ -456,7 +456,7 @@ public class Utility extends ManageBrowser {
         File source = ts.getScreenshotAs(OutputType.FILE);
 
         // After execution, you could see a folder "FailedTestsScreenshots" under screenshot folder
-        String destination = System.getProperty("user.dir") + "/src/main/java/com/demo/nopcommerce/screenshots/" + screenshotName + dateName + ".png";
+        String destination = System.getProperty("user.dir") + "/testoutput/reports/screenshots/" + screenshotName + dateName + ".png";
         File finalDestination = new File(destination);
         try {
             FileUtils.copyFile(source, finalDestination);
@@ -470,7 +470,7 @@ public class Utility extends ManageBrowser {
      * Screenshot methods
      */
     public static String takeScreenShot(String fileName) {
-        String filePath = System.getProperty("user.dir") + "/test-output/html/";
+        String filePath = System.getProperty("user.dir") + "/testoutput/reports/screenshots/";
         TakesScreenshot screenshot = (TakesScreenshot) driver;
         File scr1 = screenshot.getScreenshotAs(OutputType.FILE);
         String imageName = fileName + currentTimeStamp() + ".jpg";
