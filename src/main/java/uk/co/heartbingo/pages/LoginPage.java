@@ -11,6 +11,11 @@ public class LoginPage extends Utility {
 
     private static final Logger log = LogManager.getLogger(LoginPage.class.getName());
 
+
+    @CacheLookup
+    @FindBy(id = "onetrust-accept-btn-handler")
+    WebElement cookiesButton;
+
     @CacheLookup
     @FindBy(linkText = "Log In")
     WebElement loginLink;
@@ -44,8 +49,13 @@ public class LoginPage extends Utility {
     WebElement myAccountButton;
 
     @CacheLookup
-    @FindBy(tagName = "button")
+    @FindBy(xpath = "//button[contains(text(),'Log Out')]")
     WebElement logoutButton;
+
+    public void clickOnCookiesButton() {
+        clickOnElement(cookiesButton);
+        log.info("Clicking on Cookies Button " + cookiesButton.toString());
+    }
 
     public void clickOnLoginLink() {
         clickOnElement(loginLink);

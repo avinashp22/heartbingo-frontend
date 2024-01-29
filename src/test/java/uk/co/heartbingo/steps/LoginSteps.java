@@ -61,4 +61,7 @@ public class LoginSteps {
     public void userShouldSeeErrorMessageForInvalidUsernameAndPassword() {
         Assert.assertEquals(new LoginPage().getErrorMessageText(), "The username or password you entered is incorrect. Please try again.");
     }
+
+    @When("User clicks on Accept Cookies")
+    public void userClicksOnAcceptCookies() {new LoginPage().clickOnCookiesButton();}
 }
