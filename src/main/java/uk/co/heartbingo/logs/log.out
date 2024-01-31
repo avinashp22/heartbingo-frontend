@@ -148,3 +148,54 @@
 2024-01-30 21:01:645 INFO  LoginPage :78 - Entering Password into password field Prime12345!
 2024-01-30 21:01:01 INFO  LoginPage :83 - Clicking on Login Button on Login Page [[ChromeDriver: chrome on windows (efdab94a09338d57d1859a0d215bc9b2)] -> xpath: //button[contains(text(),'Log In')]]
 2024-01-30 21:01:219 INFO  LoginPage :87 - Getting Error message text [[ChromeDriver: chrome on windows (efdab94a09338d57d1859a0d215bc9b2)] -> class name: login_errorMessageWrapper__2ZcGx]
+2024-01-31 21:01:110 INFO  LoginPage :57 - Clicking on Cookies Button [[ChromeDriver: chrome on windows (bb39ec1a16e87f80f41185a03de9263a)] -> id: onetrust-accept-btn-handler]
+2024-01-31 21:01:794 INFO  LoginPage :62 - Clicking on Login Button at top of Page [[ChromeDriver: chrome on windows (bb39ec1a16e87f80f41185a03de9263a)] -> link text: Log In]
+2024-01-31 21:01:691 INFO  LoginPage :67 - Switching into iFrame [[ChromeDriver: chrome on windows (bb39ec1a16e87f80f41185a03de9263a)] -> xpath: //iframe[@class='oneauth-iframe']]
+2024-01-31 21:01:732 INFO  LoginPage :73 - Entering Username into username field avinashp22@gmail.com
+2024-01-31 21:01:293 INFO  LoginPage :78 - Entering Password into password field Prime123!
+2024-01-31 21:01:974 INFO  LoginPage :83 - Clicking on Login Button on Login Page [[ChromeDriver: chrome on windows (bb39ec1a16e87f80f41185a03de9263a)] -> xpath: //button[contains(text(),'Log In')]]
+2024-01-31 21:01:89 INFO  LoginPage :92 - Getting Deposit text [[ChromeDriver: chrome on windows (bb39ec1a16e87f80f41185a03de9263a)] -> link text: Deposit]
+2024-01-31 21:01:682 INFO  LoginPage :98 - Click on MyAccount Button [[ChromeDriver: chrome on windows (bb39ec1a16e87f80f41185a03de9263a)] -> class name: site-header__my-account]
+2024-01-31 21:01:835 INFO  LoginPage :102 - Getting Logout text [[ChromeDriver: chrome on windows (bb39ec1a16e87f80f41185a03de9263a)] -> xpath: //button[contains(text(),'Log Out')]]
+2024-01-31 21:01:213 INFO  LoginPage :108 - Click on logout Button Button [[ChromeDriver: chrome on windows (bb39ec1a16e87f80f41185a03de9263a)] -> xpath: //button[contains(text(),'Log Out')]]
+2024-01-31 21:01:589 INFO  LoginPage :57 - Clicking on Cookies Button [[ChromeDriver: chrome on windows (72ed30d7cc365ed2191df1f4960a9551)] -> id: onetrust-accept-btn-handler]
+2024-01-31 21:01:484 INFO  LoginPage :62 - Clicking on Login Button at top of Page [[ChromeDriver: chrome on windows (72ed30d7cc365ed2191df1f4960a9551)] -> link text: Log In]
+2024-01-31 21:01:646 INFO  LoginPage :67 - Switching into iFrame [[ChromeDriver: chrome on windows (72ed30d7cc365ed2191df1f4960a9551)] -> xpath: //iframe[@class='oneauth-iframe']]
+2024-01-31 21:01:562 INFO  LoginPage :73 - Entering Username into username field avinashp33@gmail.com
+2024-01-31 21:01:124 INFO  LoginPage :78 - Entering Password into password field Prime12345!
+2024-01-31 21:01:915 INFO  LoginPage :83 - Clicking on Login Button on Login Page [[ChromeDriver: chrome on windows (72ed30d7cc365ed2191df1f4960a9551)] -> xpath: //button[contains(text(),'Log In')]]
+2024-01-31 21:01:165 INFO  LoginPage :87 - Getting Error message text [[ChromeDriver: chrome on windows (72ed30d7cc365ed2191df1f4960a9551)] -> class name: login_errorMessageWrapper__2ZcGx]
+2024-01-31 21:01:350 INFO  LoginPage :57 - Clicking on Cookies Button [[ChromeDriver: chrome on windows (23a4f88e712b0ec9ba5e478521be53b2)] -> id: onetrust-accept-btn-handler]
+2024-01-31 21:01:300 INFO  LoginPage :62 - Clicking on Login Button at top of Page [[ChromeDriver: chrome on windows (23a4f88e712b0ec9ba5e478521be53b2)] -> link text: Log In]
+2024-01-31 21:01:510 INFO  LoginPage :67 - Switching into iFrame [[ChromeDriver: chrome on windows (23a4f88e712b0ec9ba5e478521be53b2)] -> xpath: //iframe[@class='oneauth-iframe']]
+2024-01-31 21:01:545 INFO  LoginPage :73 - Entering Username into username field avinashp22@gmail.com
+2024-01-31 21:01:16 INFO  LoginPage :78 - Entering Password into password field Prime123!
+2024-01-31 21:01:854 INFO  LoginPage :83 - Clicking on Login Button on Login Page [[ChromeDriver: chrome on windows (23a4f88e712b0ec9ba5e478521be53b2)] -> xpath: //button[contains(text(),'Log In')]]
+2024-01-31 21:01:566 INFO  LoginPage :92 - Getting Deposit text [[ChromeDriver: chrome on windows (23a4f88e712b0ec9ba5e478521be53b2)] -> link text: Deposit]
+2024-01-31 21:01:316 INFO  LoginPage :98 - Click on MyAccount Button [[ChromeDriver: chrome on windows (23a4f88e712b0ec9ba5e478521be53b2)] -> class name: site-header__my-account]
+2024-01-31 21:01:194 INFO  LoginPage :102 - Getting Logout text [[ChromeDriver: chrome on windows (23a4f88e712b0ec9ba5e478521be53b2)] -> xpath: //button[contains(text(),'Log Out')]]
+2024-01-31 21:01:161 INFO  LoginPage :108 - Click on logout Button Button [[ChromeDriver: chrome on windows (23a4f88e712b0ec9ba5e478521be53b2)] -> xpath: //button[contains(text(),'Log Out')]]
+2024-01-31 21:01:438 INFO  LoginPage :57 - Clicking on Cookies Button [[ChromeDriver: chrome on windows (0241715cb3ffe8e284320bee89a76520)] -> id: onetrust-accept-btn-handler]
+2024-01-31 21:01:158 INFO  LoginPage :62 - Clicking on Login Button at top of Page [[ChromeDriver: chrome on windows (0241715cb3ffe8e284320bee89a76520)] -> link text: Log In]
+2024-01-31 21:01:905 INFO  LoginPage :67 - Switching into iFrame [[ChromeDriver: chrome on windows (0241715cb3ffe8e284320bee89a76520)] -> xpath: //iframe[@class='oneauth-iframe']]
+2024-01-31 21:01:653 INFO  LoginPage :73 - Entering Username into username field avinashp33@gmail.com
+2024-01-31 21:01:231 INFO  LoginPage :78 - Entering Password into password field Prime12345!
+2024-01-31 21:01:836 INFO  LoginPage :83 - Clicking on Login Button on Login Page [[ChromeDriver: chrome on windows (0241715cb3ffe8e284320bee89a76520)] -> xpath: //button[contains(text(),'Log In')]]
+2024-01-31 21:01:73 INFO  LoginPage :87 - Getting Error message text [[ChromeDriver: chrome on windows (0241715cb3ffe8e284320bee89a76520)] -> class name: login_errorMessageWrapper__2ZcGx]
+2024-01-31 21:01:544 INFO  LoginPage :57 - Clicking on Cookies Button [[ChromeDriver: chrome on windows (19152085e7918d87c9589a654811139b)] -> id: onetrust-accept-btn-handler]
+2024-01-31 21:01:573 INFO  LoginPage :62 - Clicking on Login Button at top of Page [[ChromeDriver: chrome on windows (19152085e7918d87c9589a654811139b)] -> link text: Log In]
+2024-01-31 21:01:679 INFO  LoginPage :67 - Switching into iFrame [[ChromeDriver: chrome on windows (19152085e7918d87c9589a654811139b)] -> xpath: //iframe[@class='oneauth-iframe']]
+2024-01-31 21:01:559 INFO  LoginPage :73 - Entering Username into username field avinashp22@gmail.com
+2024-01-31 21:01:993 INFO  LoginPage :78 - Entering Password into password field Prime123!
+2024-01-31 21:01:661 INFO  LoginPage :83 - Clicking on Login Button on Login Page [[ChromeDriver: chrome on windows (19152085e7918d87c9589a654811139b)] -> xpath: //button[contains(text(),'Log In')]]
+2024-01-31 21:01:705 INFO  LoginPage :92 - Getting Deposit text [[ChromeDriver: chrome on windows (19152085e7918d87c9589a654811139b)] -> link text: Deposit]
+2024-01-31 21:01:578 INFO  LoginPage :98 - Click on MyAccount Button [[ChromeDriver: chrome on windows (19152085e7918d87c9589a654811139b)] -> class name: site-header__my-account]
+2024-01-31 21:01:407 INFO  LoginPage :102 - Getting Logout text [[ChromeDriver: chrome on windows (19152085e7918d87c9589a654811139b)] -> xpath: //button[contains(text(),'Log Out')]]
+2024-01-31 21:01:32 INFO  LoginPage :108 - Click on logout Button Button [[ChromeDriver: chrome on windows (19152085e7918d87c9589a654811139b)] -> xpath: //button[contains(text(),'Log Out')]]
+2024-01-31 21:01:788 INFO  LoginPage :57 - Clicking on Cookies Button [[ChromeDriver: chrome on windows (972aca39e61cfdbd212d5037b0609d4f)] -> id: onetrust-accept-btn-handler]
+2024-01-31 21:01:625 INFO  LoginPage :62 - Clicking on Login Button at top of Page [[ChromeDriver: chrome on windows (972aca39e61cfdbd212d5037b0609d4f)] -> link text: Log In]
+2024-01-31 21:01:332 INFO  LoginPage :67 - Switching into iFrame [[ChromeDriver: chrome on windows (972aca39e61cfdbd212d5037b0609d4f)] -> xpath: //iframe[@class='oneauth-iframe']]
+2024-01-31 21:01:72 INFO  LoginPage :73 - Entering Username into username field avinashp33@gmail.com
+2024-01-31 21:01:668 INFO  LoginPage :78 - Entering Password into password field Prime12345!
+2024-01-31 21:01:822 INFO  LoginPage :83 - Clicking on Login Button on Login Page [[ChromeDriver: chrome on windows (972aca39e61cfdbd212d5037b0609d4f)] -> xpath: //button[contains(text(),'Log In')]]
+2024-01-31 21:01:48 INFO  LoginPage :87 - Getting Error message text [[ChromeDriver: chrome on windows (972aca39e61cfdbd212d5037b0609d4f)] -> class name: login_errorMessageWrapper__2ZcGx]
