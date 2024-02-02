@@ -2,7 +2,7 @@ Feature: Login Functionality
 
   Background: User is on the HomePage
 
-  @Positive
+  #@Positive
   Scenario: User should be able to login with valid Credentials
     When User clicks on Accept Cookies
     When  User clicks on Login Link
@@ -14,7 +14,7 @@ Feature: Login Functionality
     Then  User should see the Logout Button
     Then  User clicks the Logout Button
 
-  @Negative
+  #@Negative
   Scenario: User should not be able to login with invalid Credentials
     When User clicks on Accept Cookies
     When  User clicks on Login Link
